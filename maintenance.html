@@ -12,21 +12,29 @@
     <style>
         img.logo {
             max-height: 100px;
+            filter: invert(100);
+        }
+
+        .cogs {
+            background-image: url(assets/cogs.svg);
         }
     </style>
 </head>
 
 <body>
-    <div class="hero is-small">
-        <div class="hero-body container">
-            <img src="https://i.ibb.co/NN5408c/Bill-big-logo.png" alt="Sii Come Bill magazine" class="logo" />
-        </div>
-    </div>
-
     <div class="hero is-large is-dark">
-        <div class="hero-head section container">
-            <h1 class="title is-1 has-text-centered">Sito in manutenzione</h1>
+        <div class="hero-head container">
+            <div class="columns section">
+                <div class="column">
+                    <img src="https://i.ibb.co/NN5408c/Bill-big-logo.png" alt="Sii Come Bill magazine" class="logo" />
+                </div>
+
+                <div class="column is-two-thirds">
+                    <h1 class="title is-1 has-text-centered">Sito in manutenzione</h1>
+                </div>
+            </div>
         </div>
+
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-8">
@@ -43,38 +51,42 @@
                     <div class="column">
                         <h2 class="subtitle is-2">Cosa posso fare mentre aspetto?</h2>
 
-                        <p>Il nostro movimento non si limita a questo sito, se ti interessa quello che facciamo puoi trovare contenuti simili sulle nostre pagine social!</p>
+                        <p>Il nostro movimento non si limita a questo sito, se ti interessa quello che facciamo puoi
+                            trovare contenuti simili sulle nostre pagine social!</p>
                     </div>
                 </div>
+            </div>
 
-                <div class="section has-text-centered">
-                    <p class="subtitle is-2">Rimani aggiornato</p>
-                    <a class="button is-info is-light" href="https://www.facebook.com/siicomebill" rel="noopener"
-                        target="_blank">
-                        <span class="icon">
-                            <i class="fab fa-facebook"></i>
-                        </span>
-                        <span>Pagina Facebook</span>
-                    </a>
-        
-                    <a class="button is-danger is-light" href="https://www.instagram.com/siicomebill" rel="noopener"
-                        target="_blank">
-                        <span class="icon">
-                            <i class="fab fa-instagram"></i>
-                        </span>
-                        <span>Pagina Instagram</span>
-                    </a>
-                </div>
+        </div>
+
+        <div class="hero-foot container has-text-centered">
+            <div class="section">
+                <p class="subtitle is-2">Rimani aggiornato</p>
+                <a class="button is-info is-light" href="https://www.facebook.com/siicomebill" rel="noopener"
+                    target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-facebook"></i>
+                    </span>
+                    <span>Pagina Facebook</span>
+                </a>
+
+                <a class="button is-danger is-light" href="https://www.instagram.com/siicomebill" rel="noopener"
+                    target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-instagram"></i>
+                    </span>
+                    <span>Pagina Instagram</span>
+                </a>
             </div>
 
         </div>
     </div>
 
     <div class="footer">
-        <div class="section container has-text-centered">
+        <div class="container has-text-centered">
             <p class="subtitle is-2">Contattaci</p>
 
-            <a class="button is-dark is-outlined" href="mailto:info@siicomebillmagazine.it" rel="noopener"
+            <a class="button is-dark is-outlined" href="mailto:redazione@siicomebillmagazine.it" rel="noopener"
                 target="_blank">
                 <span class="icon">
                     <i class="fas fa-envelope"></i>
@@ -82,6 +94,10 @@
                 <span>Redazione</span>
             </a>
         </div>
+    </div>
+
+    <div class="hero is-small cogs">
+        <div class="hero-body"></div>
     </div>
 </body>
 
