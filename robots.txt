@@ -1,0 +1,5 @@
+# Beep boop robots, please consider this file
+
+User-agent: *
+Disallow: *
+Allow: /maintenance
