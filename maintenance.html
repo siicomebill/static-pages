@@ -4,12 +4,24 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
 
-    <title>Sii Come Bill - Il magazine ufficiale è in manutenzione</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+
+    <title>Sii Come Bill</title>
 
     <style>
+        .title {
+            font-family: 'Dela Gothic One', 'sans serif' !important;
+        }
+
+        .subtitle {
+            font-family: 'Work Sans', 'sans serif' !important;
+        }
+
         img.logo {
             max-height: 100px;
             filter: invert(100);
@@ -25,11 +37,19 @@
 </head>
 
 <body>
-    <div class="hero is-large is-dark cogs">
+    <div class="hero is-medium">
         <div class="hero-body">
             <div class="container">
-                <h1 class="title is-1">Il magazine è offline</h1>
-                <p class="subtitle is-3">Ma non lo sarà per molto...</p>
+                <div class="columns is-vcentered is-4">
+                    <div class="column is-two-thirds">
+                        <h1 class="title is-1">Il magazine è offline<span class="has-text-danger">.</span></h1>
+                        <p class="subtitle is-3">Ma non lo sarà per molto...</p>
+                    </div>
+
+                    <div class="column">
+                        <img src="https://i.ibb.co/RhyTj9v/billboard.png" alt="Ao, chi ha spostato l'immagine?" />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -38,20 +58,26 @@
         <div class="section">
             <div class="columns is-8">
                 <div class="column">
-                    <h2 class="subtitle is-2">Cosa vuol dire?</h2>
+                    <div class="box">
+                        <h2 class="subtitle is-2">Cosa vuol dire?</h2>
 
-                    <p>
-                        Niente panico! Probabilmente il nostro team ha cambiato radicalmente il sito e lo sta
-                        pubblicando, la cosa meno probabile è che ci sia stato un'errore con i nostri server.
-                    </p>
-                    <p>Qualunque sia il caso non vi preoccupate, ci stiamo lavorando!</p>
+                        <p class="subtitle is-5">Niente panico!</p>
+    
+                        <p>Questa pagina viene mostrata nel caso di aggiornamenti alle fondamenta del magazine.</p>
+    
+                        <p>Quindi non vi preoccupate, <b>una nuova versione del magazine è in arrivo</b>!</p>
+                    </div>
                 </div>
 
                 <div class="column">
-                    <h2 class="subtitle is-2">Cosa posso fare mentre aspetto?</h2>
+                    <div class="box">
+                        <h2 class="subtitle is-2">Cosa posso fare mentre aspetto?</h2>
 
-                    <p>Il nostro movimento non si limita a questo sito, se ti interessa quello che facciamo puoi
-                        trovare contenuti simili sulle nostre pagine social!</p>
+                        <p>Il nostro movimento non si limita a questo sito, se ti interessa quello che facciamo puoi
+                            trovare contenuti simili sulle nostre pagine social!</p>
+
+                        <p>In ogni caso non manca molto...</p>
+                    </div>
                 </div>
             </div>
         </div>
